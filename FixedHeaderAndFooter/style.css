@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  background: silver;
+}
+
+.content {
+  flex: 1;
+  overflow: auto;
+  background: pink;
+}

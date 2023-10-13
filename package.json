@@ -1,0 +1,11 @@
+{
+  "name": "45daysinterviewquestion",
+  "version": "1.0.0",
+  "description": "45days Interview Question",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
