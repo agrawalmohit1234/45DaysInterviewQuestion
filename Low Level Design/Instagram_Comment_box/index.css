@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  height: 97.6%;
+  position: absolute;
+  left: 30%;
+}
+
+.top {
+  background-color: azure;
+  border: 1px solid black;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: crimson;
+}
+
+.middle {
+  flex: 1;
+  background-color: cadetblue;
+  border: 1px solid black;
+  overflow: scroll;
+  height: 100%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.buttom {
+  background-color: azure;
+  border: 1px solid black;
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.buttomImage {
+  background-color: azure;
+  border: 1px solid black;
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plus {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.input {
+  width: calc(100% - 38px);
+}
+
+.commentcontainer {
+  display: flex;
+  margin: 6px;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.text {
+  padding-left: 8px;
+  color: white;
+}
+
+.comment {
+  padding-left: 8px;
+  color: whitesmoke;
+  line-break: anywhere;
+}
+
+.reply {
+  padding-left: 8px;
+  color: greenyellow;
+  font-weight: 900;
+}
+
+.emoji {
+  cursor: pointer;
+}
+
+.textareaC {
+  width: calc(100% - 45px);
+  cursor: pointer;
+  margin-left: 44px;
+}
+
+.commentofcomment {
+  background-color: aquamarine;
+  padding: 6px;
+  width: calc(100% - 60px);
+  margin-left: 44px;
+  margin-bottom: 8px;
+  margin-top: 6px;
+}

@@ -1,0 +1,42 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.allNote {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.note {
+  background-color: aquamarine;
+  border: 1px solid black;
+  width: 400px;
+  margin: 4px;
+  padding: 4px;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  word-wrap: break-word;
+}
+
+.trash {
+  position: relative;
+  left: 205px;
+  top: 16px;
+  color: red;
+}

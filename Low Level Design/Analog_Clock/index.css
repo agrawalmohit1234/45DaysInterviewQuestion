@@ -1,0 +1,21 @@
+body {
+  height: 100%;
+}
+
+.clock {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+}
+
+.second {
+  border: 1px solid black;
+  width: 65px;
+}
+
+.minute {
+  border: 1px solid black;
+  width: 65px;
+}

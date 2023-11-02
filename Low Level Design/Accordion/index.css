@@ -1,0 +1,16 @@
+body {
+  height: 100%;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  background-color: crimson;
+  padding: 8px;
+  color: white;
+}
+
+.plus {
+  font-weight: bolder;
+  font-size: larger;
+}

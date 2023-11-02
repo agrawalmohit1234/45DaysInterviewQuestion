@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  background-color: crimson;
+  padding: 8px;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: calc(100% - 15px);
+}
+
+.title_ele {
+  margin: 4px;
+  padding: 4px;
+  background-color: aquamarine;
+  border-radius: 20%;
+  cursor: pointer;
+  top: 500px;
+}
+
+.nav_data {
+  z-index: -1;
+  height: 2000px;
+}

@@ -1,0 +1,46 @@
+body {
+  height: 100%;
+}
+
+.heading {
+  text-align: center;
+  color: blueviolet;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.imgHeading {
+  text-align: center;
+  color: brown;
+}
+
+.box {
+  width: min-content;
+  border: 2px solid blue;
+  padding: 4px;
+  display: inline-block;
+}
+
+.button {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.prevnext {
+  display: flex;
+  justify-content: space-around;
+  margin: 8px;
+}

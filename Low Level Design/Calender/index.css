@@ -1,0 +1,48 @@
+body {
+  height: 100%;
+}
+
+.btn {
+  background-color: aquamarine;
+  border: 1px solid black;
+  cursor: pointer;
+  width: fit-content;
+  padding: 2px;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+
+.calender {
+  background-color: beige;
+  width: 150px;
+}
+
+.day {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  background-color: aliceblue;
+  padding: 2px;
+  display: inline-block;
+  text-align: center;
+}
+
+.day:hover {
+  background-color: aquamarine;
+}
+
+.alldays {
+  cursor: pointer;
+  text-align: center;
+}
+
+.month-year {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+}
+
+.month-select {
+  margin-right: 4px;
+}
